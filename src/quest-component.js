@@ -4,7 +4,7 @@ import {entity} from "./entity.js";
 export const quest_component = (() => {
 
   const _TITLE = 'Hola Aventurero!';
-  const _TEXT = `Bienvenido al mundo del Creepypasto! Desde la desaparición de hardware y software no han parado de proliferar los bichos en las tierras del Creepypasto y no voy a poder ir a pasar la navidad con mis allegados, ¿ Sería tan amable de eliminar todos los que pueda? 💕`;
+  const _TEXT = `Bienvenido al mundo del Creepypasto! Desde la desaparición de hardware y software no han parado de proliferar los bichos en las tierras del Creepypasto y no voy a poder ir a pasar la navidad con mis allegados, ¿ Sería tan amable de eliminar todos los que pueda?`;
 
   class QuestComponent extends entity.Component {
     constructor() {
