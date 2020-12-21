@@ -3,8 +3,8 @@ import {entity} from "./entity.js";
 
 export const quest_component = (() => {
 
-  const _TITLE = 'Welcome Adventurer!';
-  const _TEXT = `Welcome to Honeywood adventurer, I see you're the chosen one and also the dragon born and whatever else, you're going to save the world! Also bring the rings back to mordor and defeat the evil dragon, and all the other things. But first, I must test you with some meaningless bullshit tasks that every rpg makes you do to waste time. Go kill like uh 30 ghosts and collect their eyeballs or something. Also go get my drycleaning and pick up my kids from daycare.`;
+  const _TITLE = 'Hola Aventurero!';
+  const _TEXT = `Bienvenido al mundo del Creepypasto! Desde la desaparición de hardware y software no han parado de proliferar los bichos en las tierras del Creepypasto y no voy a poder ir a pasar la navidad con mis allegados, ¿ Sería tan amable de eliminar todos los que pueda? 💕`;
 
   class QuestComponent extends entity.Component {
     constructor() {
